@@ -68,6 +68,6 @@ Te 'buy' command brings up a list of items in the store, and allows you to make 
 A Transporter Room is a type of room that brings you to a random room when you use the 'go' command.
 
 ## Credits
-Michael Kolling and David J. Barnes came up with the idea for the World of Zuul. (March 30, 2006)  
-Lynn Marshall implemented the basic game in which you could move from room to room. (October 21, 2012)  
-Fiona Cheng added additional functionality including 'look', 'eat', 'take', 'drop', 'back', 'stackBack',  'charge', 'fire', 'sell', 'buy', the Teleportation Room, and the Encounters. (February 22, 2023)
+- Michael Kolling and David J. Barnes came up with the idea for the World of Zuul. (March 30, 2006)  
+- Lynn Marshall implemented the basic game in which you could move from room to room. (October 21, 2012)  
+- Fiona Cheng added additional functionality including 'look', 'eat', 'take', 'drop', 'back', 'stackBack',  'charge', 'fire', 'sell', 'buy', the Teleportation Room, and the Encounters. (February 22, 2023)
