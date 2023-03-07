@@ -11,11 +11,12 @@ import java.util.Random;
  * to a random room when they leave.
  *
  * @Fiona Cheng (Student Number 101234672)
- * @version February 21, 2023
+ * @version March 7, 2023
  */
 public class TransporterRoom extends Room
 {
     private static ArrayList<Room> roomList = new ArrayList<Room>();
+    Random rand;
     
     /**
      * Creates a transporter room.
@@ -25,6 +26,7 @@ public class TransporterRoom extends Room
     public TransporterRoom(ArrayList<Room> roomList){
         super("in a transporter room");
         this.roomList = roomList;
+        rand = new Random();
     }
     /**
      * Returns a random room, independent of the direction parameter.
@@ -45,7 +47,6 @@ public class TransporterRoom extends Room
      */
     private Room findRandomRoom()
     {
-        Random rand = new Random();
         int rand_int = rand.nextInt(roomList.size()); //generates a random index for roomList
         
         return roomList.get(rand_int);
