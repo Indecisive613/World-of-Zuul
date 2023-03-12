@@ -16,7 +16,7 @@ import java.util.Random;
 public class TransporterRoom extends Room
 {
     private static ArrayList<Room> roomList = new ArrayList<Room>();
-    Random rand;
+    private Random rand;
     
     /**
      * Creates a transporter room.
