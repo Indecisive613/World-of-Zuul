@@ -13,7 +13,7 @@
  */
 public class Beamer extends Item
 {
-    Room chargedRoom;
+    private Room chargedRoom;
 
     /**
      * Creates a Beamer.
