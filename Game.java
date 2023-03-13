@@ -505,8 +505,6 @@ public class Game
         
         beam.charge(currentRoom);
         System.out.println("beamer successfully charged.");
-        
-        myItem = beam; //update myItem to hold the newly modified beamer
     }
     
     /** 
@@ -537,9 +535,7 @@ public class Game
             return;
         }
         
-        Room nextRoom = beam.fire(); 
-        
-        myItem = beam; //update myItem to hold the newly modified beamer
+        Room nextRoom = beam.fire();
         
         roomHistory.push(currentRoom); //adds room to movement history
             
